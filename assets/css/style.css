@@ -88,6 +88,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   max-width: 1200px;
+  margin-bottom: 1rem;
 }
 
 .grid-container > div img {
@@ -114,4 +115,83 @@ body {
   text-align: center;
   margin-top: -30px;
   text-shadow: 2px 2px 8px #000000;
+}
+
+.grid-container-2 {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 1200px;
+}
+
+.grid-container-2 > div img {
+  height: 384px;
+  width: 288px;
+  border-radius: 10px;
+}
+
+.button-view-all {
+  background-color: #07d6a4;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.button-view-all a {
+  text-decoration: none;
+  color: black;
+}
+
+.tattoo-idea-bg-dark {
+  text-align: center;
+  padding: 128px 32px;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  border-radius: 15px;
+}
+
+.tattoo-idea-bg-dark li {
+  list-style: none;
+  display: inline-flex;
+}
+
+.section-tattoo-idea {
+  background-image: url("../img/main-background.jpg");
+  border-radius: 15px;
+}
+.rodape {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0;
+  margin-top: 1rem;
+}
+
+.footer-button {
+  background-color: #07d6a4;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.footer-button a {
+  text-decoration: none;
+  color: black;
+}
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-nav li {
+  padding: 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(245, 244, 244);
 }
