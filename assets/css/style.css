@@ -117,34 +117,40 @@ body {
   text-shadow: 2px 2px 8px #000000;
 }
 
-.grid-container-2 {
-  display: grid;
-  margin-top: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  max-width: 1200px;
+.novo-modelo {
+  display: table;
+  text-align: center;
+  border-bottom: 1px black dotted;
+  margin: 1rem auto;
 }
-
-.grid-container-2 > div img {
-  height: 384px;
-  width: 288px;
-  border-radius: 10px;
-}
-
 .button-view-all {
-  background-color: #07d6a4;
+  background-color: black;
   border-radius: 5px;
   border: none;
-  font-size: 14px;
-  padding: 8px 16px;
+  font-size: 20px;
+  padding: 12px 24px;
 }
 
 .button-view-all a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
+.view-all-tattoo-ideas {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.view-all-tattoo-ideas a {
+  font-size: 16px;
+}
+
+.section-tattoo-idea {
+  background-image: url("../img/main-background.jpg");
+  border-radius: 15px;
+}
 .tattoo-idea-bg-dark {
+  margin-top: 3rem;
   text-align: center;
   padding: 128px 32px;
   background-color: rgba(0, 0, 0, 0.712);
@@ -152,19 +158,20 @@ body {
   border-radius: 15px;
 }
 
+.tattoo-idea-bg-dark h2 {
+  font-size: 2rem;
+}
+.tattoo-idea-bg-dark ul {
+  margin: 16px auto;
+}
 .tattoo-idea-bg-dark li {
   list-style: none;
   display: inline-flex;
+  margin: 1rem;
 }
 
-.section-tattoo-idea {
-  background-image: url("../img/main-background.jpg");
-  border-radius: 15px;
-}
 .rodape {
   background: #000;
-  display: flex;
-  justify-content: space-between;
   padding: 64px 0;
   margin-top: 1rem;
 }
@@ -180,6 +187,7 @@ body {
 .footer-button a {
   text-decoration: none;
   color: black;
+  font-size: 16px;
 }
 .footer-nav ul {
   display: flex;
@@ -192,6 +200,12 @@ body {
 
 .footer-nav a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(245, 244, 244);
+}
+.footer-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1200px;
 }
