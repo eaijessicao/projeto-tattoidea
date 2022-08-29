@@ -129,6 +129,7 @@ body {
   border: none;
   font-size: 20px;
   padding: 12px 24px;
+  margin: 2rem auto;
 }
 
 .button-view-all a {
@@ -149,6 +150,14 @@ body {
   background-image: url("../img/main-background.jpg");
   border-radius: 15px;
 }
+
+.video-text {
+  display: table;
+  text-align: center;
+  border-bottom: 1px black dotted;
+  margin: 1rem auto;
+}
+
 .tattoo-idea-bg-dark {
   margin-top: 3rem;
   text-align: center;

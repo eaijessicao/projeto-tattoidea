@@ -310,6 +310,47 @@
         <button class="button-view-all">
           <a href="http://">View All tattoo ideas</a>
         </button>
+
+        <h2 class="video-text">Watch me on youtube</h2>
+        <section class="splide video-carrossel">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide video-1">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/HcyjFyYKK4w"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </li>
+              <li class="splide__slide video-2">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/hYyhtub3nao"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </li>
+              <li class="splide__slide video-3">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/hTGmE4w5xMU"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </li>
+            </ul>
+          </div>
+        </section>
         <section class="section-tattoo-idea">
           <div class="tattoo-idea-bg-dark">
             <h2>Make your tattoo idea finally come to life</h2>
@@ -348,8 +389,17 @@
         type: "slide",
         rewind: true,
         autoplay: true,
-        interval: 2000,
+        interval: 1000,
         perPage: 3,
+        gap: "1rem",
+      }).mount();
+    </script>
+
+    <script>
+      new Splide(".video-carrossel", {
+        type: "slide",
+        rewind: true,
+        perPage: 1,
         gap: "1rem",
       }).mount();
     </script>
